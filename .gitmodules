@@ -1,0 +1,12 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/afuradanime/backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/afuradanime/frontend
+[submodule "anime-facts-core"]
+	path = anime-facts-core
+	url = https://github.com/afuradanime/anime-facts-core
+[submodule "sys"]
+	path = sys
+	url = https://github.com/afuradanime/sys

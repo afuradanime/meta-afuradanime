@@ -1,0 +1,16 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend.ockerfile
+    ports:
+      - "6969:6969"
+    volumes:
+      - ./backend/.env:/app/.env
+      - ./anime.db:/anime.db
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend.dockerfile
+    ports:
+      - "3000:80"
