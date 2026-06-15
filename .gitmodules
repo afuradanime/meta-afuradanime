@@ -10,3 +10,6 @@
 [submodule "sys"]
 	path = sys
 	url = https://github.com/afuradanime/sys
+[submodule "data"]
+	path = data
+	url = https://github.com/afuradanime/data
