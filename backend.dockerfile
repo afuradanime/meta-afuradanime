@@ -1,16 +1,3 @@
-# build AFC
-FROM debian:bookworm AS core-builder
-
-RUN apt-get update && apt-get install -y \
-    build-essential cmake
-
-WORKDIR /core
-
-COPY anime-facts-core/ .
-
-RUN cmake -S . -B build \
- && cmake --build build
-
 # build backend
 FROM golang:1.25 AS go-builder
 
